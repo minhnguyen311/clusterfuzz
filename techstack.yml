@@ -1,0 +1,1476 @@
+repo_name: minhnguyen311/clusterfuzz
+report_id: 669e3d5e491a3f0e6c8f6412131fab17
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-07T13:24:49+00:00'
+requested_by: marktefftech
+provider: github
+branch: master
+detected_tools_count: 109
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/docker/base/Dockerfile
+  detection_source: docker/base/Dockerfile
+  last_updated_by: Abhishek Arya
+  last_updated_on: 2021-02-16 22:53:58.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: Flask
+  description: A microframework for Python based on Werkzeug, Jinja 2 and good intentions
+  website_url: http://flask.pocoo.org/
+  version: 1.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1001/default_6d109315b60108628b7cd3e159b84645c31ef0e2.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile
+  detection_source: src/Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:22:33.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/docker/base/Dockerfile
+  detection_source: docker/base/Dockerfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2023-02-13 04:11:22.000000000 Z
+- name: Polymer
+  description: A new library built on top of Web Components, designed to leverage
+    the evolving web platform on modern browsers
+  website_url: https://www.polymer-project.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1934/R8YcGKHV.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-06-25 03:26:21.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  version: 3.20.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: src/platform_requirements.txt
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-08-03 12:18:24.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 3.3.11
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:22:33.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/.github/workflows/codeql-analysis.yml
+  detection_source: ".github/workflows/codeql-analysis.yml"
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2022-08-18 06:41:06.000000000 Z
+- name: Google Cloud Build
+  description: Continuously build, test, and deploy.
+  website_url: https://cloud.google.com/cloud-build
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Deployment
+  image_url: https://img.stackshare.io/service/9309/PoHJY3K8_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/cloudbuild.yaml
+  detection_source: cloudbuild.yaml
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-02-13 00:25:37.000000000 Z
+- name: Gunicorn
+  description: A Python WSGI HTTP Server for UNIX
+  website_url: http://gunicorn.org/
+  version: 21.2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1091/gunicorn.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-10-19 21:41:38.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/setup.py
+  detection_source: src/setup.py
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-10-15 00:30:39.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.17.7
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-10-19 21:41:38.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/docs/Gemfile
+  detection_source: docs/Gemfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile
+  detection_source: src/Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:22:33.000000000 Z
+- name: ANTLR
+  description: Posts by Terence Parr, The ANTLR guy, about ANTLR, StringTemplate,
+    parsing, and general computer language cruft.
+  website_url: http://www.antlr.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8585/a159037c4838e54e93d9f630a295c396_normal.jpeg
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz
+  detection_source: Repo Metadata
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/docker/base/Dockerfile
+  detection_source: docker/base/Dockerfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2021-08-26 03:24:11.000000000 Z
+- name: Werkzeug
+  website_url: https://palletsprojects.com/p/werkzeug/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/11076/iwoLyNPI_normal.jpg
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile
+  detection_source: src/Pipfile
+  last_updated_by: Quan Yang Yeo
+  last_updated_on: 2022-05-25 06:52:12.000000000 Z
+- name: cryptography
+  description: Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers
+  package_url: https://pypi.org/project/cryptography
+  version: 3.4.8
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:22:33.000000000 Z
+  vulnerabilities:
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id: CVE-2023-0286
+    cve_url: https://github.com/advisories/GHSA-x4qr-2fvf-3mr5
+    detected_date: Feb 9
+    severity: high
+    first_patched: 39.0.1
+  - name: Python Cryptography package vulnerable to Bleichenbacher timing oracle attack
+    cve_id: CVE-2023-50782
+    cve_url: https://github.com/advisories/GHSA-3ww4-gg4f-jr7f
+    detected_date: Feb 6
+    severity: high
+    first_patched: 42.0.0
+  - name: cryptography vulnerable to NULL-dereference when loading PKCS7 certificates
+    cve_id: CVE-2023-49083
+    cve_url: https://github.com/advisories/GHSA-jfhm-5ghh-2f97
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 41.0.6
+  - name: Cipher.update_into can corrupt memory if passed an immutable python object
+      as the outbuf
+    cve_id: CVE-2023-23931
+    cve_url: https://github.com/advisories/GHSA-w7pp-m8wf-vj6r
+    detected_date: Feb 8
+    severity: moderate
+    first_patched: 39.0.1
+  - name: Null pointer dereference in PKCS12 parsing
+    cve_id: CVE-2024-0727
+    cve_url: https://github.com/advisories/GHSA-9v9h-cgj8-h64p
+    detected_date: Feb 17
+    severity: moderate
+    first_patched: 42.0.2
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-v8gr-m533-ghj9
+    detected_date: Sep 22
+    severity: low
+    first_patched: 41.0.4
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-5cpq-8wj7-hf2v
+    detected_date: Jun 3
+    severity: low
+    first_patched: 41.0.0
+  - name: pyca/cryptography's wheels include vulnerable OpenSSL
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-jm77-qphf-c4w8
+    detected_date: Aug 2
+    severity: low
+    first_patched: 41.0.3
+- name: Jinja2
+  description: A very fast and expressive template engine
+  package_url: https://pypi.org/project/Jinja2
+  version: 2.11.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19836/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile
+  detection_source: src/Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:22:33.000000000 Z
+  vulnerabilities:
+  - name: Jinja vulnerable to HTML attribute injection when passing user input as
+      keys to xmlattr filter
+    cve_id: CVE-2024-34064
+    cve_url: https://github.com/advisories/GHSA-h75v-3vvj-5mfj
+    detected_date: May 7
+    severity: moderate
+    first_patched: 3.1.4
+- name: paramiko
+  description: SSH2 protocol library
+  package_url: https://pypi.org/project/paramiko
+  version: 2.6.0
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19896/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-10-02 19:12:15.000000000 Z
+  vulnerabilities:
+  - name: Prefix Truncation Attack against ChaCha20-Poly1305 and Encrypt-then-MAC
+      aka Terrapin
+    cve_id: CVE-2023-48795
+    cve_url: https://github.com/advisories/GHSA-45x7-px36-x8w8
+    detected_date: Dec 20
+    severity: moderate
+    first_patched: 3.4.0
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:22:33.000000000 Z
+  vulnerabilities:
+  - name: Requests `Session` object does not verify requests after making first request
+      with verify=False
+    cve_id: CVE-2024-35195
+    cve_url: https://github.com/advisories/GHSA-9wx4-h78v-vm56
+    detected_date: May 21
+    severity: moderate
+    first_patched: 2.32.0
+- name: Fabric
+  description: High level SSH command execution
+  package_url: https://pypi.org/project/Fabric
+  version: 1.14.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20084/default_5d939a1a27846185eb6de438be4bf77b84b4ee87.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile
+  detection_source: Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-10-19 21:41:38.000000000 Z
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile
+  detection_source: src/Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:22:33.000000000 Z
+- name: PyGithub
+  description: Use the full Github API v3
+  package_url: https://pypi.org/project/PyGithub
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19957/default_f0290ff2792e2af7d13f5c82ed82206842ec288d.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile
+  detection_source: src/Pipfile
+  last_updated_by: Holly Gong
+  last_updated_on: 2023-08-22 05:38:57.000000000 Z
+- name: PyJWT
+  description: JSON Web Token implementation in Python
+  package_url: https://pypi.org/project/PyJWT
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19883/default_3863c7bb51d307217c188e059f67ca417c51efe3.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile
+  detection_source: src/Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-10-03 15:49:44.000000000 Z
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile
+  detection_source: src/Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-10-03 14:49:58.000000000 Z
+- name: WebTest
+  description: Helper to test WSGI applications
+  package_url: https://pypi.org/project/WebTest
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20570/default_c0168195ccd784fb0b83e7f7661959455719049b.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile
+  detection_source: Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-10-02 19:12:15.000000000 Z
+- name: antlr4-python3-runtime
+  description: ANTLR 4.7.2 runtime for Python 3.6.3
+  package_url: https://pypi.org/project/antlr4-python3-runtime
+  version: 4.7.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: Holly Gong
+  last_updated_on: 2023-08-22 05:38:57.000000000 Z
+- name: crcmod
+  description: CRC Generator
+  package_url: https://pypi.org/project/crcmod
+  version: '1.7'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-02-05 05:12:14.000000000 Z
+- name: firebase-admin
+  description: Firebase Admin Python SDK
+  package_url: https://pypi.org/project/firebase-admin
+  version: 2.16.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20517/default_35c96ceb69f6db523362c5b30e575b2d4ddfcab3.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-08-03 12:18:24.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  version: 1.8.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: Holly Gong
+  last_updated_on: 2023-08-22 05:38:57.000000000 Z
+- name: google-auth
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth
+  version: 1.25.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19955/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-08-03 12:18:24.000000000 Z
+- name: google-auth-oauthlib
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth-oauthlib
+  version: 0.4.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20240/default_8a23a3884b3073b5e1695e2320e46529e60882b3.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-08-03 12:18:24.000000000 Z
+- name: google-cloud-core
+  description: Google Cloud API client core library
+  package_url: https://pypi.org/project/google-cloud-core
+  version: 1.4.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20215/default_91afeaad6f5d17a2b513346f3f744a53cbd8a9ad.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-08-03 12:18:24.000000000 Z
+- name: google-cloud-datastore
+  description: Google Cloud Datastore API client library
+  package_url: https://pypi.org/project/google-cloud-datastore
+  version: 1.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20224/default_1dd191092405544080932321b11cf946ade027c3.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: Holly Gong
+  last_updated_on: 2023-08-22 05:38:57.000000000 Z
+- name: google-cloud-logging
+  description: Stackdriver Logging API client library
+  package_url: https://pypi.org/project/google-cloud-logging
+  version: 1.15.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20551/default_2bd6b1bbea25e0422bf129a726728cd8e73433f2.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-08-03 12:18:24.000000000 Z
+- name: google-cloud-monitoring
+  description: Stackdriver Monitoring API client library
+  package_url: https://pypi.org/project/google-cloud-monitoring
+  version: 0.36.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-08-03 12:18:24.000000000 Z
+- name: google-cloud-storage
+  description: Google Cloud Storage API client library
+  package_url: https://pypi.org/project/google-cloud-storage
+  version: 1.37.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19996/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-08-03 12:18:24.000000000 Z
+- name: grpcio-tools
+  description: Protobuf code generator for gRPC
+  package_url: https://pypi.org/project/grpcio-tools
+  version: 1.38.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20003/default_87268cab0d3a3b3acf3aa0576d4b114b8e4c2521.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Jonathan Metzman
+  last_updated_on: 2023-10-05 16:05:47.000000000 Z
+- name: httplib2
+  description: A comprehensive HTTP client library
+  package_url: https://pypi.org/project/httplib2
+  version: 0.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19914/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:22:33.000000000 Z
+- name: isort
+  description: A Python utility / library to sort Python imports
+  package_url: https://pypi.org/project/isort
+  version: 5.11.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2021-07-26 04:42:30.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  version: 2.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:22:33.000000000 Z
+- name: jira
+  description: Python library for interacting with JIRA via REST APIs
+  package_url: https://pypi.org/project/jira
+  version: 2.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20299/default_00525766b5d1b7a358cc1912c2d8907cee4c2347.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: Holly Gong
+  last_updated_on: 2023-08-22 05:38:57.000000000 Z
+- name: mozprocess
+  description: Mozilla-authored process handling
+  package_url: https://pypi.org/project/mozprocess
+  version: 1.3.1
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-10-05 14:43:58.000000000 Z
+- name: nodeenv
+  description: Node.js virtual environment builder
+  package_url: https://pypi.org/project/nodeenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-10-19 21:41:38.000000000 Z
+- name: oauth2client
+  description: OAuth 2.0 client library
+  package_url: https://pypi.org/project/oauth2client
+  version: 4.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19956/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-08-03 12:18:24.000000000 Z
+- name: parameterized
+  description: Parameterized testing with any Python test framework
+  package_url: https://pypi.org/project/parameterized
+  version: 0.9.0
+  license: BSD-2-Clause-FreeBSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-10-02 19:12:15.000000000 Z
+- name: pipenv
+  description: Python Development Workflow for Humans
+  package_url: https://pypi.org/project/pipenv
+  version: 2022.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20516/default_35c96ceb69f6db523362c5b30e575b2d4ddfcab3.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Holly Gong
+  last_updated_on: 2023-03-30 04:33:17.000000000 Z
+- name: psutil
+  description: Cross-platform lib for process and system monitoring in Python
+  package_url: https://pypi.org/project/psutil
+  version: 5.7.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19851/default_ac77a75c05474acf9389d56b1f5cc8241af4c384.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-08-03 12:18:24.000000000 Z
+- name: pyOpenSSL
+  description: Python wrapper module around the OpenSSL library
+  package_url: https://pypi.org/project/pyOpenSSL
+  version: 23.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19873/default_7ed3c4ccf2a3218ae3655165b980bd4a90a445dc.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile
+  detection_source: src/Pipfile
+  last_updated_by: Holly Gong
+  last_updated_on: 2023-08-22 05:38:57.000000000 Z
+- name: pyfakefs
+  description: Pyfakefs implements a fake file system that mocks the Python file system
+    modules
+  package_url: https://pypi.org/project/pyfakefs
+  version: 4.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Abhishek Arya
+  last_updated_on: 2021-05-21 19:48:07.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.1
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: Holly Gong
+  last_updated_on: 2023-08-22 05:38:57.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2023.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2023-06-05 11:57:33.000000000 Z
+- name: requests-toolbelt
+  description: A utility belt for advanced users of python-requests
+  package_url: https://pypi.org/project/requests-toolbelt
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20128/default_3146a05cf4dd77d8b50cff25709373c081ac5053.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:22:33.000000000 Z
+- name: selenium
+  description: Python bindings for Selenium
+  package_url: https://pypi.org/project/selenium
+  version: 3.141.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19869/default_d05f6f09935776629f62e8aed365805502c14921.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-10-19 21:41:38.000000000 Z
+- name: sendgrid
+  description: Twilio SendGrid library for Python
+  package_url: https://pypi.org/project/sendgrid
+  version: 6.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20325/default_0c9409de2ef424482d14f84cb95c9dab5c399c85.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/src/Pipfile.lock
+  detection_source: src/Pipfile
+  last_updated_by: Holly Gong
+  last_updated_on: 2023-08-22 05:38:57.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: src/setup.py
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-10-15 00:30:39.000000000 Z
+- name: twine
+  description: Collection of utilities for publishing packages on PyPI
+  package_url: https://pypi.org/project/twine
+  version: 4.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19935/default_63c8e7696ded615c51302c06e54b0d0c8ae9af3f.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Abhishek Arya
+  last_updated_on: 2021-05-21 19:48:07.000000000 Z
+- name: yapf
+  description: A formatter for Python code
+  package_url: https://pypi.org/project/yapf
+  version: 0.22.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20399/default_27c957eac1674813a0a457a78f430be9e3c184a7.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-03-18 22:11:38.000000000 Z
+- name: app-layout
+  description: A set of layout elements for your app
+  package_url: http://bower.io/app-layout
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: app-route
+  description: App route
+  package_url: http://bower.io/app-route
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: iron-a11y-keys-behavior
+  description: A behavior that enables keybindings for greater a11y
+  package_url: http://bower.io/iron-a11y-keys-behavior
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: iron-ajax
+  description: Makes it easy to make ajax calls and parse the response
+  package_url: http://bower.io/iron-ajax
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: iron-collapse
+  description: Provides a collapsable container
+  package_url: http://bower.io/iron-collapse
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: mbarbella-chromium
+  last_updated_on: 2019-12-03 00:01:18.000000000 Z
+- name: iron-flex-layout
+  description: Provide flexbox-based layouts
+  package_url: http://bower.io/iron-flex-layout
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: iron-form
+  description: Wrapper around native form that submits native and custom elements
+  package_url: http://bower.io/iron-form
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: iron-icon
+  description: An element that supports displaying an icon
+  package_url: http://bower.io/iron-icon
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: iron-icons
+  description: A set of icons for use with iron-icon
+  package_url: http://bower.io/iron-icons
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: iron-menu-behavior
+  description: Provides accessible menu behavior
+  package_url: http://bower.io/iron-menu-behavior
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: iron-meta
+  description: Useful for sharing information across a DOM tree
+  package_url: http://bower.io/iron-meta
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-01-30 17:55:19.000000000 Z
+- name: iron-test-helpers
+  description: Utility classes to help make testing easier
+  package_url: http://bower.io/iron-test-helpers
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-06-25 03:26:21.000000000 Z
+- name: paper-button
+  description: Material design button
+  package_url: http://bower.io/paper-button
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-card
+  description: A custom web components card element taking design inspiration from
+    Polymer
+  package_url: http://bower.io/paper-card
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-checkbox
+  description: A material design checkbox
+  package_url: http://bower.io/paper-checkbox
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-date-picker
+  description: A date picker à la Material Design
+  package_url: http://bower.io/paper-date-picker
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-dialog
+  description: A Material Design dialog
+  package_url: http://bower.io/paper-dialog
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-dialog-scrollable
+  description: A scrollable area used inside the material design dialog
+  package_url: http://bower.io/paper-dialog-scrollable
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-drawer-panel
+  description: A responsive drawer panel
+  package_url: http://bower.io/paper-drawer-panel
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-dropdown-menu
+  description: An element that works similarly to a native browser select
+  package_url: http://bower.io/paper-dropdown-menu
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-header-panel
+  description: A header and content wrapper for layout with headers
+  package_url: http://bower.io/paper-header-panel
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-icon-button
+  description: A material design icon button
+  package_url: http://bower.io/paper-icon-button
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-item
+  description: A material-design styled list item
+  package_url: http://bower.io/paper-item
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-listbox
+  description: Implements an accessible material design listbox
+  package_url: http://bower.io/paper-listbox
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-material
+  description: A material design container that looks like a lifted sheet of paper
+  package_url: http://bower.io/paper-material
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-spinner
+  description: A material design spinner
+  package_url: http://bower.io/paper-spinner
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-styles
+  description: Common
+  package_url: http://bower.io/paper-styles
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-tabs
+  description: Material design tabs
+  package_url: http://bower.io/paper-tabs
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-toggle-button
+  description: A material design toggle button control
+  package_url: http://bower.io/paper-toggle-button
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-toolbar
+  description: A material design toolbar that is easily customizable
+  package_url: http://bower.io/paper-toolbar
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: paper-tooltip
+  description: Material design tooltip popup for content
+  package_url: http://bower.io/paper-tooltip
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: polymer
+  description: Our original Web Component library
+  package_url: http://bower.io/polymer
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-06-25 03:26:21.000000000 Z
+- name: shadycss
+  description: Styling helpers for ShadyDOM
+  package_url: http://bower.io/shadycss
+  version: 1.0.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2022-03-15 03:28:06.000000000 Z
+- name: test-fixture
+  description: A simple element to fixture DOM for tests
+  package_url: http://bower.io/test-fixture
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-06-25 03:26:21.000000000 Z
+- name: web-component-tester
+  description: Web-component-tester makes testing your web components a breeze!
+  package_url: http://bower.io/web-component-tester
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Oliver Chang
+  last_updated_on: 2020-06-25 03:26:21.000000000 Z
+- name: github-pages
+  description: Bootstrap the GitHub Pages Jekyll environment locally
+  package_url: https://rubygems.org/github-pages
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/docs/Gemfile
+  detection_source: docs/Gemfile
+  last_updated_by: Oliver Chang
+  last_updated_on: 2019-02-05 18:24:47.000000000 Z
+- name: webrick
+  description: WEBrick is an HTTP server toolkit that can be configured as an HTTPS
+    server
+  package_url: https://rubygems.org/webrick
+  version: 1.7.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19444/default_e747a715ce0379afdb68c78657d70e4a512bf5f4.png
+  detection_source_url: https://github.com/minhnguyen311/clusterfuzz/blob/master/docs/Gemfile.lock
+  detection_source: docs/Gemfile
+  last_updated_by: jonathanmetzman
+  last_updated_on: 2022-08-02 00:20:08.000000000 Z
